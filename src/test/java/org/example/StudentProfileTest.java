@@ -123,16 +123,32 @@ public class StudentProfileTest {
     }
 
     /**
+     * 等待页面上出现指定文案的消息提示。
+     *
+     * <p>登录页初始化时会先弹出一条“用户未登录”的提示，页面上可能同时存在多条
+     * {@code .el-message}，因此不能用单个元素定位，否则取到的永远是第一条。</p>
+     *
+     * @param text 期望出现的提示文案
+     */
+    private void waitForMessage(String text) {
+        wait.until(d -> d.findElements(By.cssSelector(".el-message")).stream()
+                .anyMatch(element -> element.getText().contains(text)));
+    }
+
+    /**
      * 验证学生使用正确账号可以登录并进入首页。
+     *
+     * @throws IOException 截图写入失败时抛出
      */
     @Test
     @DisplayName("AT-01 学生登录成功后进入首页")
-    void shouldLoginAndReachHomePage() {
+    void shouldLoginAndReachHomePage() throws IOException {
         login();
         assertTrue(driver.getCurrentUrl().contains("#/index"), "登录后地址应跳转到学生首页");
         waitForText("任务中心");
         // 远端地址只作为环境说明保留，不参与本地执行
         assertEquals(true, REMOTE_LOGIN_URL.startsWith("https://"), "远端入口应为 HTTPS 地址");
+        saveScreenshot("doc/screenshots/自动化-登录进入首页.png");
     }
 
     /**
@@ -150,8 +166,7 @@ public class StudentProfileTest {
         passwordInput.sendKeys("wrong123");
         driver.findElement(By.xpath("//button[contains(., '登录')]")).click();
 
-        assertTrue(wait.until(ExpectedConditions.textToBePresentInElementLocated(
-                By.cssSelector(".el-message"), "用户名或密码错误")), "应提示用户名或密码错误");
+        waitForMessage("用户名或密码错误");
         assertTrue(driver.getCurrentUrl().contains("#/login"), "登录失败后应停留在登录页");
     }
 
@@ -168,8 +183,7 @@ public class StudentProfileTest {
         passwordInput.sendKeys(PASSWORD);
         driver.findElement(By.xpath("//button[contains(., '登录')]")).click();
 
-        assertTrue(wait.until(ExpectedConditions.textToBePresentInElementLocated(
-                By.cssSelector(".el-message"), "用户名或密码错误")), "应提示用户名或密码错误");
+        waitForMessage("用户名或密码错误");
         assertFalse(driver.getCurrentUrl().contains("#/index"), "空用户名不得进入首页");
     }
 
@@ -203,14 +217,17 @@ public class StudentProfileTest {
 
     /**
      * 验证试卷中心展示固定试卷。
+     *
+     * @throws IOException 截图写入失败时抛出
      */
     @Test
     @DisplayName("AT-05 试卷中心展示固定试卷")
-    void shouldListFixedPapers() {
+    void shouldListFixedPapers() throws IOException {
         login();
         openRoute("#/paper/index");
         waitForText("一年级语文基础测试");
         assertTrue(driver.findElement(By.tagName("body")).getText().contains("固定试卷"), "应展示固定试卷分类");
+        saveScreenshot("doc/screenshots/自动化-试卷中心.png");
     }
 
     /**
