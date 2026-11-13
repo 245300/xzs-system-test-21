@@ -52,6 +52,16 @@
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>${jacoco.version}</version>
+        <configuration>
+          <!-- 不插桩 JDK 自身类，避免 WebSocket$Listener 等触发
+               IllegalClassFormatException 并把超大堆栈写进 surefire 报告 -->
+          <excludes>
+            <exclude>java.*</exclude>
+            <exclude>jdk.*</exclude>
+            <exclude>sun.*</exclude>
+            <exclude>com.sun.*</exclude>
+          </excludes>
+        </configuration>
         <executions>
           <execution>
             <goals>

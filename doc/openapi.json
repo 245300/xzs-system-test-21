@@ -1,0 +1,120 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "学之思管理端接口（测试契约文档）",
+    "description": "依据学之思 3.9.0 实测接口整理，覆盖实验八接口测试的 3 个场景。",
+    "version": "3.9.0"
+  },
+  "paths": {
+    "/api/admin/dashboard/index": {
+      "post": {
+        "summary": "01-未登录访问管理端首页被拦截",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/user/login": {
+      "post": {
+        "summary": "02-错误密码登录被拒绝",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/user/current": {
+      "post": {
+        "summary": "06-查询当前管理员信息",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/user/event/page/list": {
+      "post": {
+        "summary": "07-查询用户操作日志分页",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/message/page": {
+      "post": {
+        "summary": "01-未登录访问留言列表被拦截",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/message/send": {
+      "post": {
+        "summary": "06-发送一条留言",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/user/page/list": {
+      "post": {
+        "summary": "01-未登录访问学生列表被拦截",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/education/subject/list": {
+      "post": {
+        "summary": "05-查询学科列表",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/exam/paper/page": {
+      "post": {
+        "summary": "06-查询试卷分页",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/question/page": {
+      "post": {
+        "summary": "07-查询题目分页",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/admin/question/select/{id}": {
+      "post": {
+        "summary": "08-查询题目详情",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}

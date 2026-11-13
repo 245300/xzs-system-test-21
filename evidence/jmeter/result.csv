@@ -1,0 +1,72 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1794562011234,34,06-管理员登录,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,698,376,1,3,http://localhost:8065/api/user/login,34,0,20
+1794562011234,34,10-管理员登录,200,OK,线程组3-试卷管理新增试卷 3-1,text,true,,698,376,1,3,http://localhost:8065/api/user/login,34,0,20
+1794562011234,34,01-管理员登录,200,OK,线程组1-用户管理新增学生 1-1,text,true,,698,376,1,3,http://localhost:8065/api/user/login,34,0,20
+1794562011271,8,02-查询学生列表,200,OK,线程组1-用户管理新增学生 1-1,text,true,,4103,442,1,3,http://localhost:8065/api/admin/user/page/list,7,0,0
+1794562011271,8,11-查询试卷列表,200,OK,线程组3-试卷管理新增试卷 3-1,text,true,,2527,460,1,3,http://localhost:8065/api/admin/exam/paper/page,7,0,0
+1794562011271,14,07-查询题目列表,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,3075,478,1,3,http://localhost:8065/api/admin/question/page,14,0,0
+1794562011280,10,03-新增学生A,200,OK,线程组1-用户管理新增学生 1-1,text,true,,918,589,1,3,http://localhost:8065/api/admin/user/edit,9,0,0
+1794562011280,15,12-新增试卷,200,OK,线程组3-试卷管理新增试卷 3-1,text,true,,1008,872,1,3,http://localhost:8065/api/admin/exam/paper/edit,15,0,0
+1794562011286,10,08-新增题目,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,369,694,1,3,http://localhost:8065/api/admin/question/edit,10,0,0
+1794562011290,9,04-新增学生B,200,OK,线程组1-用户管理新增学生 1-1,text,true,,918,589,1,3,http://localhost:8065/api/admin/user/edit,9,0,0
+1794562011296,25,13-复核试卷列表,200,OK,线程组3-试卷管理新增试卷 3-1,text,true,,2527,460,1,3,http://localhost:8065/api/admin/exam/paper/page,25,0,0
+1794562011180,82,事务-试卷管理新增试卷,200,"Number of samples in transaction : 4, number of failing samples : 0",线程组3-试卷管理新增试卷 3-1,,true,,6760,2168,1,3,null,81,61,20
+1794562011300,23,05-复核学生列表,200,OK,线程组1-用户管理新增学生 1-1,text,true,,4151,442,1,3,http://localhost:8065/api/admin/user/page/list,22,0,0
+1794562011179,84,事务-用户管理新增学生,200,"Number of samples in transaction : 5, number of failing samples : 0",线程组1-用户管理新增学生 1-1,,true,,10788,2438,1,3,null,81,60,20
+1794562011297,34,09-复核题目列表,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,3068,478,1,3,http://localhost:8065/api/admin/question/page,34,0,0
+1794562011179,92,事务-卷题管理新增题目,200,"Number of samples in transaction : 4, number of failing samples : 0",线程组2-卷题管理新增题目 2-1,,true,,7210,2026,1,3,null,92,60,20
+1794562011324,16,10-管理员登录,200,OK,线程组3-试卷管理新增试卷 3-1,text,true,,625,437,1,3,http://localhost:8065/api/user/login,16,0,0
+1794562011329,13,01-管理员登录,200,OK,线程组1-用户管理新增学生 1-1,text,true,,625,437,1,3,http://localhost:8065/api/user/login,13,0,0
+1794562011332,16,06-管理员登录,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,625,437,1,3,http://localhost:8065/api/user/login,16,0,0
+1794562011342,9,11-查询试卷列表,200,OK,线程组3-试卷管理新增试卷 3-1,text,true,,2527,460,1,3,http://localhost:8065/api/admin/exam/paper/page,9,0,0
+1794562011344,10,02-查询学生列表,200,OK,线程组1-用户管理新增学生 1-1,text,true,,4151,442,1,3,http://localhost:8065/api/admin/user/page/list,9,0,0
+1794562011355,11,03-新增学生A,200,OK,线程组1-用户管理新增学生 1-1,text,true,,894,565,1,3,http://localhost:8065/api/admin/user/edit,11,0,0
+1794562011350,19,07-查询题目列表,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,3068,478,1,3,http://localhost:8065/api/admin/question/page,19,0,0
+1794562011352,21,12-新增试卷,200,OK,线程组3-试卷管理新增试卷 3-1,text,true,,1008,872,1,3,http://localhost:8065/api/admin/exam/paper/edit,21,0,0
+1794562011367,11,04-新增学生B,200,OK,线程组1-用户管理新增学生 1-1,text,true,,894,565,1,3,http://localhost:8065/api/admin/user/edit,11,0,0
+1794562011370,13,08-新增题目,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,369,701,1,3,http://localhost:8065/api/admin/question/edit,13,0,0
+1794562011375,8,13-复核试卷列表,200,OK,线程组3-试卷管理新增试卷 3-1,text,true,,2527,460,1,3,http://localhost:8065/api/admin/exam/paper/page,8,0,0
+1794562011323,54,事务-试卷管理新增试卷,200,"Number of samples in transaction : 4, number of failing samples : 0",线程组3-试卷管理新增试卷 3-1,,true,,6687,2229,1,3,null,54,7,0
+1794562011379,8,05-复核学生列表,200,OK,线程组1-用户管理新增学生 1-1,text,true,,4103,442,1,2,http://localhost:8065/api/admin/user/page/list,8,0,0
+1794562011328,53,事务-用户管理新增学生,200,"Number of samples in transaction : 5, number of failing samples : 0",线程组1-用户管理新增学生 1-1,,true,,10667,2451,1,2,null,52,7,0
+1794562011384,14,09-复核题目列表,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,3070,478,1,1,http://localhost:8065/api/admin/question/page,14,0,0
+1794562011332,62,事务-卷题管理新增题目,200,"Number of samples in transaction : 4, number of failing samples : 0",线程组2-卷题管理新增题目 2-1,,true,,7132,2094,1,1,null,62,4,0
+1794562011399,11,06-管理员登录,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,625,437,1,1,http://localhost:8065/api/user/login,11,0,0
+1794562011410,13,07-查询题目列表,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,3070,478,1,1,http://localhost:8065/api/admin/question/page,12,0,0
+1794562011424,17,08-新增题目,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,369,701,1,1,http://localhost:8065/api/admin/question/edit,17,0,0
+1794562011441,18,09-复核题目列表,200,OK,线程组2-卷题管理新增题目 2-1,text,true,,3070,478,1,1,http://localhost:8065/api/admin/question/page,18,0,0
+1794562011398,59,事务-卷题管理新增题目,200,"Number of samples in transaction : 4, number of failing samples : 0",线程组2-卷题管理新增题目 2-1,,true,,7134,2094,1,1,null,58,3,0
+1794562011830,13,01-管理员登录,200,OK,线程组1-用户管理新增学生 1-2,text,true,,698,376,1,1,http://localhost:8065/api/user/login,13,0,1
+1794562011844,7,02-查询学生列表,200,OK,线程组1-用户管理新增学生 1-2,text,true,,4103,442,1,1,http://localhost:8065/api/admin/user/page/list,7,0,0
+1794562011852,8,03-新增学生A,200,OK,线程组1-用户管理新增学生 1-2,text,true,,918,589,1,1,http://localhost:8065/api/admin/user/edit,8,0,0
+1794562011861,10,04-新增学生B,200,OK,线程组1-用户管理新增学生 1-2,text,true,,918,589,1,1,http://localhost:8065/api/admin/user/edit,9,0,0
+1794562011871,7,05-复核学生列表,200,OK,线程组1-用户管理新增学生 1-2,text,true,,4151,442,1,1,http://localhost:8065/api/admin/user/page/list,7,0,0
+1794562011829,45,事务-用户管理新增学生,200,"Number of samples in transaction : 5, number of failing samples : 0",线程组1-用户管理新增学生 1-2,,true,,10788,2438,1,1,null,44,4,1
+1794562011880,9,01-管理员登录,200,OK,线程组1-用户管理新增学生 1-2,text,true,,625,437,1,1,http://localhost:8065/api/user/login,9,0,0
+1794562011890,12,02-查询学生列表,200,OK,线程组1-用户管理新增学生 1-2,text,true,,4151,442,1,1,http://localhost:8065/api/admin/user/page/list,11,0,0
+1794562011902,12,03-新增学生A,200,OK,线程组1-用户管理新增学生 1-2,text,true,,894,565,1,1,http://localhost:8065/api/admin/user/edit,12,0,0
+1794562011915,10,04-新增学生B,200,OK,线程组1-用户管理新增学生 1-2,text,true,,894,565,1,1,http://localhost:8065/api/admin/user/edit,10,0,0
+1794562011926,9,05-复核学生列表,200,OK,线程组1-用户管理新增学生 1-2,text,true,,4103,442,1,1,http://localhost:8065/api/admin/user/page/list,9,0,0
+1794562011879,52,事务-用户管理新增学生,200,"Number of samples in transaction : 5, number of failing samples : 0",线程组1-用户管理新增学生 1-2,,true,,10667,2451,1,1,null,51,4,0
+1794562012167,9,10-管理员登录,200,OK,线程组3-试卷管理新增试卷 3-2,text,true,,698,376,1,1,http://localhost:8065/api/user/login,9,0,1
+1794562012177,5,11-查询试卷列表,200,OK,线程组3-试卷管理新增试卷 3-2,text,true,,2527,460,1,1,http://localhost:8065/api/admin/exam/paper/page,5,0,0
+1794562012182,14,12-新增试卷,200,OK,线程组3-试卷管理新增试卷 3-2,text,true,,1008,872,1,1,http://localhost:8065/api/admin/exam/paper/edit,14,0,0
+1794562012197,5,13-复核试卷列表,200,OK,线程组3-试卷管理新增试卷 3-2,text,true,,2527,460,1,1,http://localhost:8065/api/admin/exam/paper/page,5,0,0
+1794562012165,33,事务-试卷管理新增试卷,200,"Number of samples in transaction : 4, number of failing samples : 0",线程组3-试卷管理新增试卷 3-2,,true,,6760,2168,1,1,null,33,4,1
+1794562012203,9,10-管理员登录,200,OK,线程组3-试卷管理新增试卷 3-2,text,true,,625,437,1,1,http://localhost:8065/api/user/login,9,0,0
+1794562012212,6,11-查询试卷列表,200,OK,线程组3-试卷管理新增试卷 3-2,text,true,,2527,460,1,1,http://localhost:8065/api/admin/exam/paper/page,6,0,0
+1794562012218,16,12-新增试卷,200,OK,线程组3-试卷管理新增试卷 3-2,text,true,,1008,872,1,1,http://localhost:8065/api/admin/exam/paper/edit,15,0,0
+1794562012234,5,13-复核试卷列表,200,OK,线程组3-试卷管理新增试卷 3-2,text,true,,2527,460,1,1,http://localhost:8065/api/admin/exam/paper/page,5,0,0
+1794562012203,36,事务-试卷管理新增试卷,200,"Number of samples in transaction : 4, number of failing samples : 0",线程组3-试卷管理新增试卷 3-2,,true,,6687,2229,1,1,null,35,0,0
+1794562012496,9,01-管理员登录,200,OK,线程组1-用户管理新增学生 1-3,text,true,,698,376,1,1,http://localhost:8065/api/user/login,9,0,1
+1794562012506,5,02-查询学生列表,200,OK,线程组1-用户管理新增学生 1-3,text,true,,4103,442,1,1,http://localhost:8065/api/admin/user/page/list,5,0,0
+1794562012512,9,03-新增学生A,200,OK,线程组1-用户管理新增学生 1-3,text,true,,918,589,1,1,http://localhost:8065/api/admin/user/edit,8,0,0
+1794562012521,10,04-新增学生B,200,OK,线程组1-用户管理新增学生 1-3,text,true,,918,589,1,1,http://localhost:8065/api/admin/user/edit,10,0,0
+1794562012531,9,05-复核学生列表,200,OK,线程组1-用户管理新增学生 1-3,text,true,,4151,442,1,1,http://localhost:8065/api/admin/user/page/list,9,0,0
+1794562012495,42,事务-用户管理新增学生,200,"Number of samples in transaction : 5, number of failing samples : 0",线程组1-用户管理新增学生 1-3,,true,,10788,2438,1,1,null,41,3,1
+1794562012542,10,01-管理员登录,200,OK,线程组1-用户管理新增学生 1-3,text,true,,625,437,1,1,http://localhost:8065/api/user/login,10,0,0
+1794562012553,6,02-查询学生列表,200,OK,线程组1-用户管理新增学生 1-3,text,true,,4151,442,1,1,http://localhost:8065/api/admin/user/page/list,6,0,0
+1794562012560,7,03-新增学生A,200,OK,线程组1-用户管理新增学生 1-3,text,true,,894,565,1,1,http://localhost:8065/api/admin/user/edit,7,0,0
+1794562012568,7,04-新增学生B,200,OK,线程组1-用户管理新增学生 1-3,text,true,,894,565,1,1,http://localhost:8065/api/admin/user/edit,7,0,0
+1794562012576,7,05-复核学生列表,200,OK,线程组1-用户管理新增学生 1-3,text,true,,4103,442,1,1,http://localhost:8065/api/admin/user/page/list,6,0,0
+1794562012542,37,事务-用户管理新增学生,200,"Number of samples in transaction : 5, number of failing samples : 0",线程组1-用户管理新增学生 1-3,,true,,10667,2451,1,1,null,36,4,0

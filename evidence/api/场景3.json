@@ -1,0 +1,700 @@
+{
+  "result": {
+    "stats": {
+      "steps": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0
+      },
+      "iterations": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "items": {},
+      "scripts": {
+        "total": 16,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequests": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      },
+      "requests": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      },
+      "socketRequests": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "tests": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      },
+      "assertions": {
+        "total": 23,
+        "pending": 0,
+        "failed": 0
+      },
+      "testScripts": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequestScripts": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      }
+    },
+    "timings": {
+      "responseTime": 126,
+      "responseAverage": 9.54539042711258,
+      "responseMin": 8,
+      "responseMax": 35,
+      "responseSd": 8.90379506477098,
+      "dnsAverage": 0,
+      "dnsMin": 0,
+      "dnsMax": 0,
+      "dnsSd": 0,
+      "firstByteAverage": 0,
+      "firstByteMin": 0,
+      "firstByteMax": 0,
+      "firstByteSd": 0,
+      "started": 1794562041442,
+      "completed": 1794562042306
+    },
+    "transfers": {
+      "responseTotal": 9867
+    },
+    "failures": [],
+    "stepTree": [
+      {
+        "ref": "f8acc26e-d83e-4cc2-b180-c5a0c798329c",
+        "type": "http"
+      },
+      {
+        "ref": "5ff4b7c1-c078-441c-a1ee-541e9587d709",
+        "type": "http"
+      },
+      {
+        "ref": "d8c41816-44a5-4557-bc58-cce161c0ef69",
+        "type": "http"
+      },
+      {
+        "ref": "d713ecee-16ee-4261-9b49-e0034212e4b8",
+        "type": "http"
+      },
+      {
+        "ref": "6078d1d0-2f6f-4624-bb9e-4d414da182ef",
+        "type": "http"
+      },
+      {
+        "ref": "e286b9da-d1d3-4299-8d8b-a37b7fadbef0",
+        "type": "http"
+      },
+      {
+        "ref": "18b25341-30ef-43e9-aedf-16a2e470160d",
+        "type": "http"
+      },
+      {
+        "ref": "a3685937-eb50-4a6b-87b2-c1c5a2ee0def",
+        "type": "http"
+      }
+    ],
+    "error": null
+  },
+  "isTestFlowControl": false,
+  "run": {
+    "stats": {
+      "steps": {
+        "total": 8,
+        "passed": 8,
+        "failed": 0
+      },
+      "iterations": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "items": {},
+      "scripts": {
+        "total": 16,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequests": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      },
+      "requests": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      },
+      "socketRequests": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "tests": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      },
+      "assertions": {
+        "total": 23,
+        "pending": 0,
+        "failed": 0
+      },
+      "testScripts": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequestScripts": {
+        "total": 8,
+        "pending": 0,
+        "failed": 0
+      }
+    },
+    "timings": {
+      "responseTime": 126,
+      "responseAverage": 9.54539042711258,
+      "responseMin": 8,
+      "responseMax": 35,
+      "responseSd": 8.90379506477098,
+      "dnsAverage": 0,
+      "dnsMin": 0,
+      "dnsMax": 0,
+      "dnsSd": 0,
+      "firstByteAverage": 0,
+      "firstByteMin": 0,
+      "firstByteMax": 0,
+      "firstByteSd": 0,
+      "started": 1794562041442,
+      "completed": 1794562042306
+    },
+    "transfers": {
+      "responseTotal": 9867
+    },
+    "failures": [],
+    "stepTree": [
+      {
+        "ref": "f8acc26e-d83e-4cc2-b180-c5a0c798329c",
+        "type": "http"
+      },
+      {
+        "ref": "5ff4b7c1-c078-441c-a1ee-541e9587d709",
+        "type": "http"
+      },
+      {
+        "ref": "d8c41816-44a5-4557-bc58-cce161c0ef69",
+        "type": "http"
+      },
+      {
+        "ref": "d713ecee-16ee-4261-9b49-e0034212e4b8",
+        "type": "http"
+      },
+      {
+        "ref": "6078d1d0-2f6f-4624-bb9e-4d414da182ef",
+        "type": "http"
+      },
+      {
+        "ref": "e286b9da-d1d3-4299-8d8b-a37b7fadbef0",
+        "type": "http"
+      },
+      {
+        "ref": "18b25341-30ef-43e9-aedf-16a2e470160d",
+        "type": "http"
+      },
+      {
+        "ref": "a3685937-eb50-4a6b-87b2-c1c5a2ee0def",
+        "type": "http"
+      }
+    ],
+    "error": null
+  },
+  "options": {
+    "reporters": [
+      "cli",
+      "html",
+      "json"
+    ],
+    "outDir": "report/api-cli",
+    "outFile": "场景3",
+    "delayRequest": 0,
+    "timeoutRequest": 0,
+    "timeoutScript": 0,
+    "globalVar": [],
+    "envVar": [],
+    "color": "auto",
+    "allowSecuritySensitiveActions": true,
+    "bigint": false,
+    "lang": "zh",
+    "disableRejectUnauthorized": false,
+    "bigintLegacy": false,
+    "maxRetries": 3,
+    "enableBigInt": false,
+    "apiBaseUrl": "https://api.apifox.com",
+    "reporterOptions": {},
+    "reporter": {
+      "cli": {},
+      "html": {},
+      "json": {}
+    },
+    "originalOutFile": "场景3",
+    "accessToken": null,
+    "apifoxVersion": "2.2.9",
+    "environment": {},
+    "globals": {},
+    "teamGlobals": {}
+  },
+  "collection": {
+    "apifoxCli": "1.1",
+    "info": {
+      "name": "场景三：管理端登录-用户与卷题管理接口测试",
+      "description": "覆盖未登录拦截、学生/管理员分页、学科列表、试卷与题目分页、题目详情。"
+    },
+    "name": "场景三：管理端登录-用户与卷题管理接口测试",
+    "item": [
+      {
+        "name": "场景三：管理端登录-用户与卷题管理接口测试",
+        "item": [
+          {
+            "name": "01-未登录访问学生列表被拦截",
+            "metaInfo": {
+              "type": "http"
+            },
+            "request": {
+              "method": "POST",
+              "url": "http://127.0.0.1:8065/api/admin/user/page/list",
+              "headers": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "request-ajax",
+                  "value": "true"
+                },
+                {
+                  "key": "User-Agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\"userName\":\"\",\"role\":1,\"pageIndex\":1,\"pageSize\":10}"
+              }
+            },
+            "event": [
+              {
+                "listen": "prerequest",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.request.headers.upsert({key:'Content-Type', value:'application/json'});",
+                    "pm.variables.set('adminName', 'admin');",
+                    "pm.variables.set('adminPwd', '123456');"
+                  ]
+                }
+              },
+              {
+                "listen": "test",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                    "const body = pm.response.json();",
+                    "pm.test('未登录业务码 401', function () { pm.expect(body.code).to.equal(401); });",
+                    "pm.test('提示未登录', function () { pm.expect(body.message).to.include('未登录'); });"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "02-管理员登录",
+            "metaInfo": {
+              "type": "http"
+            },
+            "request": {
+              "method": "POST",
+              "url": "http://127.0.0.1:8065/api/user/login",
+              "headers": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "request-ajax",
+                  "value": "true"
+                },
+                {
+                  "key": "User-Agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\"userName\":\"{{adminName}}\",\"password\":\"{{adminPwd}}\",\"remember\":false}"
+              }
+            },
+            "event": [
+              {
+                "listen": "prerequest",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.request.headers.upsert({key:'Content-Type', value:'application/json'});",
+                    "pm.variables.set('adminName', 'admin');",
+                    "pm.variables.set('adminPwd', '123456');"
+                  ]
+                }
+              },
+              {
+                "listen": "test",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                    "const body = pm.response.json();",
+                    "pm.test('业务码为 1', function () { pm.expect(body.code).to.equal(1); });"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "03-查询学生列表",
+            "metaInfo": {
+              "type": "http"
+            },
+            "request": {
+              "method": "POST",
+              "url": "http://127.0.0.1:8065/api/admin/user/page/list",
+              "headers": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "request-ajax",
+                  "value": "true"
+                },
+                {
+                  "key": "User-Agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\"userName\":\"\",\"role\":1,\"pageIndex\":1,\"pageSize\":10}"
+              }
+            },
+            "event": [
+              {
+                "listen": "prerequest",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.request.headers.upsert({key:'Content-Type', value:'application/json'});",
+                    "pm.variables.set('adminName', 'admin');",
+                    "pm.variables.set('adminPwd', '123456');"
+                  ]
+                }
+              },
+              {
+                "listen": "test",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                    "const body = pm.response.json();",
+                    "pm.test('业务码为 1', function () { pm.expect(body.code).to.equal(1); });",
+                    "pm.test('返回学生数组', function () { pm.expect(body.response.list).to.be.an('array'); });"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "04-查询管理员列表",
+            "metaInfo": {
+              "type": "http"
+            },
+            "request": {
+              "method": "POST",
+              "url": "http://127.0.0.1:8065/api/admin/user/page/list",
+              "headers": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "request-ajax",
+                  "value": "true"
+                },
+                {
+                  "key": "User-Agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\"userName\":\"\",\"role\":0,\"pageIndex\":1,\"pageSize\":10}"
+              }
+            },
+            "event": [
+              {
+                "listen": "prerequest",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.request.headers.upsert({key:'Content-Type', value:'application/json'});",
+                    "pm.variables.set('adminName', 'admin');",
+                    "pm.variables.set('adminPwd', '123456');"
+                  ]
+                }
+              },
+              {
+                "listen": "test",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                    "const body = pm.response.json();",
+                    "pm.test('业务码为 1', function () { pm.expect(body.code).to.equal(1); });",
+                    "pm.test('返回管理员数组', function () { pm.expect(body.response.list).to.be.an('array'); });"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "05-查询学科列表",
+            "metaInfo": {
+              "type": "http"
+            },
+            "request": {
+              "method": "POST",
+              "url": "http://127.0.0.1:8065/api/admin/education/subject/list",
+              "headers": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "request-ajax",
+                  "value": "true"
+                },
+                {
+                  "key": "User-Agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{}"
+              }
+            },
+            "event": [
+              {
+                "listen": "prerequest",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.request.headers.upsert({key:'Content-Type', value:'application/json'});",
+                    "pm.variables.set('adminName', 'admin');",
+                    "pm.variables.set('adminPwd', '123456');"
+                  ]
+                }
+              },
+              {
+                "listen": "test",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                    "const body = pm.response.json();",
+                    "pm.test('业务码为 1', function () { pm.expect(body.code).to.equal(1); });",
+                    "pm.test('返回学科数组', function () { pm.expect(body.response).to.be.an('array'); });"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "06-查询试卷分页",
+            "metaInfo": {
+              "type": "http"
+            },
+            "request": {
+              "method": "POST",
+              "url": "http://127.0.0.1:8065/api/admin/exam/paper/page",
+              "headers": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "request-ajax",
+                  "value": "true"
+                },
+                {
+                  "key": "User-Agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\"id\":null,\"level\":null,\"subjectId\":null,\"pageIndex\":1,\"pageSize\":10}"
+              }
+            },
+            "event": [
+              {
+                "listen": "prerequest",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.request.headers.upsert({key:'Content-Type', value:'application/json'});",
+                    "pm.variables.set('adminName', 'admin');",
+                    "pm.variables.set('adminPwd', '123456');"
+                  ]
+                }
+              },
+              {
+                "listen": "test",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                    "const body = pm.response.json();",
+                    "pm.test('业务码为 1', function () { pm.expect(body.code).to.equal(1); });",
+                    "pm.test('返回试卷数组', function () { pm.expect(body.response.list).to.be.an('array'); });"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "07-查询题目分页",
+            "metaInfo": {
+              "type": "http"
+            },
+            "request": {
+              "method": "POST",
+              "url": "http://127.0.0.1:8065/api/admin/question/page",
+              "headers": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "request-ajax",
+                  "value": "true"
+                },
+                {
+                  "key": "User-Agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{\"id\":null,\"questionType\":null,\"level\":null,\"subjectId\":null,\"pageIndex\":1,\"pageSize\":10}"
+              }
+            },
+            "event": [
+              {
+                "listen": "prerequest",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.request.headers.upsert({key:'Content-Type', value:'application/json'});",
+                    "pm.variables.set('adminName', 'admin');",
+                    "pm.variables.set('adminPwd', '123456');"
+                  ]
+                }
+              },
+              {
+                "listen": "test",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                    "const body = pm.response.json();",
+                    "pm.test('业务码为 1', function () { pm.expect(body.code).to.equal(1); });",
+                    "pm.test('返回题目数组', function () { pm.expect(body.response.list).to.be.an('array'); });"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "08-查询题目详情",
+            "metaInfo": {
+              "type": "http"
+            },
+            "request": {
+              "method": "POST",
+              "url": "http://127.0.0.1:8065/api/admin/question/select/1",
+              "headers": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                },
+                {
+                  "key": "request-ajax",
+                  "value": "true"
+                },
+                {
+                  "key": "User-Agent",
+                  "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+                }
+              ],
+              "body": {
+                "mode": "raw",
+                "raw": "{}"
+              }
+            },
+            "event": [
+              {
+                "listen": "prerequest",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.request.headers.upsert({key:'Content-Type', value:'application/json'});",
+                    "pm.variables.set('adminName', 'admin');",
+                    "pm.variables.set('adminPwd', '123456');"
+                  ]
+                }
+              },
+              {
+                "listen": "test",
+                "script": {
+                  "type": "text/javascript",
+                  "exec": [
+                    "pm.test('HTTP 200', function () { pm.response.to.have.status(200); });",
+                    "const body = pm.response.json();",
+                    "pm.test('业务码为 1', function () { pm.expect(body.code).to.equal(1); });",
+                    "pm.test('题目 id 为 1', function () { pm.expect(body.response.id).to.equal(1); });"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "reportExtra": {},
+    "runnerId": "1487001e-b4ec-4388-b3ea-5052312b1290"
+  }
+}
