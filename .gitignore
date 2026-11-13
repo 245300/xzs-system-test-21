@@ -1,0 +1,27 @@
+# 构建产物与评分元数据
+target/
+report/
+.qa/
+
+# 浏览器驱动（本地按 Chrome 版本放置，不入库）
+chromedriver.exe
+
+# 日志与临时文件
+*.log
+*.tmp
+*.dumpstream
+hs_err_pid*.log
+replay_pid*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Python 缓存（辅助脚本）
+__pycache__/
+*.pyc
+
+# 系统
+Thumbs.db
+.DS_Store
