@@ -731,7 +731,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">report/jmeter/statistics.csv</stringProp>
+        <stringProp name="filename">C:\5120245301\report\jmeter\statistics.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="察看结果树" enabled="true">
@@ -769,7 +769,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">C:\5120245301\report\jmeter\gui-result.jtl</stringProp>
       </ResultCollector>
       <hashTree/>
     </hashTree>
