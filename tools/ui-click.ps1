@@ -159,6 +159,7 @@ if ($Script -ne "") {
         $arg = if ($idx -gt 0) { $step.Substring($idx + 1) } else { "" }
         switch ($cmd) {
             "click" { $p = $arg -split ","; Do-Click ([int]$p[0]) ([int]$p[1]) }
+            "hover" { $p = $arg -split ","; [NI]::SetCursorPos([int]$p[0], [int]$p[1]) | Out-Null; Start-Sleep -Milliseconds 400 }
             "rclick" { $p = $arg -split ","; Do-RClick ([int]$p[0]) ([int]$p[1]) }
             "wheel" { Do-Wheel ([int]$arg) }
             "fastclick" { $p = $arg -split ","; Do-FastClick ([int]$p[0]) ([int]$p[1]) }
