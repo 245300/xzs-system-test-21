@@ -3,7 +3,7 @@ import cn.swust.cqa.ai.AiEvaluationFactory;
 import cn.swust.cqa.rule.AiRule;
 import cn.swust.cqa.ai.tongyi.TongyiConfig;
 
-String PRJ = "C:\\5120245301";
+String PRJ = "C:\\5120245300";
 System.setProperty("cqa.app.home", "D:\\软件测试\\Student");
 
 TongyiConfig.loadConfig();
