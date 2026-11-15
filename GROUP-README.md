@@ -27,7 +27,6 @@
 ├── pom.xml                 Maven 工程（Selenium 4.18.1 + JUnit 5.10.2 + JaCoCo 0.8.12）
 ├── src/main/java           page object、校验工具、Main 入口说明
 ├── src/test/java           Selenium 端到端 + 参数化/边界单元测试
-├── src/test/ui             录制导出的原始脚本（过程证据）
 ├── api/                    Apifox CLI 集合（3 个场景）
 ├── jmeter/                 JMeter 脚本、CSV 数据、ServerAgent
 ├── doc/                    测试方案、手工记录、综合报告、截图
@@ -39,7 +38,7 @@
 | 类型 | 工具 |
 |---|---|
 | 手工/缺陷 | Excel、禅道（主记录）、GitHub Issue（镜像） |
-| Web 自动化 | Selenium IDE 录制 + Selenium WebDriver 4.18.1 + JUnit 5 + Maven + JaCoCo |
+| Web 自动化 | 手写 Selenium WebDriver 4.18.1 + JUnit 5 + Maven + JaCoCo（未使用 Selenium IDE 录制） |
 | 接口 | Apifox 桌面版 + Apifox CLI 2.2.9 |
 | 性能 | JMeter 5.6.3 + JMeter Plugins + ServerAgent-2.2.3 |
 | 浏览器 | Chrome 157、Edge 157、Firefox 160、360 极速浏览器X 23.1 |
@@ -63,7 +62,7 @@ jmeter -n -t jmeter/xzs_admin_perf.jmx -l report/jmeter/result.jtl -e -o report/
 
 - `main`：可交付版本，保护分支
 - `feature/manual`：手工、界面、兼容
-- `feature/ui-auto`：Selenium 录制与自动化
+- `feature/ui-auto`：Selenium 自动化脚本与执行证据
 - `feature/api`：Apifox 场景与导出
 - `feature/jmeter`：性能脚本与服务器监控
 - `docs/report`：测试方案与综合报告

@@ -90,14 +90,19 @@ public class StudentProfileTest {
 
         WebElement userNameInput = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[placeholder='用户名']")));
+        // 对应实验步骤 1：点击用户名输入框并输入用户名
+        userNameInput.click();
         userNameInput.clear();
         userNameInput.sendKeys(USER_NAME);
 
         WebElement passwordInput = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[placeholder='密码']")));
+        // 对应实验步骤 2：点击密码输入框并输入密码
+        passwordInput.click();
         passwordInput.clear();
         passwordInput.sendKeys(PASSWORD);
 
+        // 对应实验步骤 3：点击登录，等待跳转到首页
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(., '登录')]"))).click();
         // 登录成功后地址切换到学生首页
         wait.until(ExpectedConditions.urlContains("#/index"));
@@ -198,14 +203,18 @@ public class StudentProfileTest {
         login();
 
         ProfilePage profilePage = new ProfilePage(driver);
+        // 步骤 4-5：点击左上角个人头像，再点击「个人中心」
         profilePage.openFromAvatar();
+        // 步骤 6-7：个人中心页面打开后，点击「资料修改」页签
         assertTrue(profilePage.openProfileTab(), "资料修改表单应可见");
 
+        // 步骤 8-12：依次点击真实姓名、年龄、性别、出生日期、手机号并填写
         profilePage.fillRealName("学生")
                 .fillAge("18")
                 .fillPhone("13800138000");
         profilePage.selectSex("男");
         profilePage.fillBirthDay("2019-09-01");
+        // 步骤 13：点击「更新」并等待成功提示
         profilePage.clickUpdate();
 
         assertTrue(profilePage.waitForUpdateSuccess(), "提交后应出现成功提示");

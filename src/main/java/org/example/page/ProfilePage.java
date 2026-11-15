@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /**
  * 学之思学生端个人中心的页面对象。
  *
- * <p>覆盖从右上角头像进入个人中心、切换到资料修改页、填写资料并提交的完整操作。
+ * <p>覆盖从左上角头像进入个人中心、切换到资料修改页、填写资料并提交的完整操作。
  * 表单控件的 id 由前端框架动态生成，因此统一按标签文字定位。</p>
  *
  * @author 熊锦豪
@@ -36,7 +36,7 @@ public class ProfilePage {
     }
 
     /**
-     * 点击右上角头像，并在下拉菜单中点击个人中心。
+     * 点击左上角头像，并在下拉菜单中点击个人中心。
      */
     public void openFromAvatar() {
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".el-badge"))).click();
@@ -66,6 +66,8 @@ public class ProfilePage {
      */
     public ProfilePage fillRealName(String realName) {
         WebElement input = inputByLabel("真实姓名");
+        // 先点击输入框取得焦点，再清空并输入
+        input.click();
         input.clear();
         input.sendKeys(realName);
         return this;
@@ -79,6 +81,7 @@ public class ProfilePage {
      */
     public ProfilePage fillAge(String age) {
         WebElement input = inputByLabel("年龄");
+        input.click();
         input.clear();
         input.sendKeys(age);
         return this;
@@ -104,6 +107,8 @@ public class ProfilePage {
     public void fillBirthDay(String birthDay) {
         WebElement input = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[placeholder='选择日期']")));
+        // 点击日期框展开日期面板，再输入日期并回车确认
+        input.click();
         input.clear();
         input.sendKeys(birthDay);
         // 日期控件需要回车确认输入值
@@ -118,6 +123,7 @@ public class ProfilePage {
      */
     public ProfilePage fillPhone(String phone) {
         WebElement input = inputByLabel("手机");
+        input.click();
         input.clear();
         input.sendKeys(phone);
         return this;
